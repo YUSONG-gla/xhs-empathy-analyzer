@@ -1,9 +1,8 @@
 """
-详情页内容获取：用 httpx 直接请求笔记详情页，正则提取 meta 标签拿正文。
+详情页内容获取：用 httpx 直接请求笔记详情页，从 window.__INITIAL_STATE__ 提取正文。
 
-简化自一个已验证可用的参考脚本：直接请求详情页 HTML，
-从 `<meta name="og:title">` 和 `<meta name="description">` 里提取标题和正文，
-不需要解析复杂的 __INITIAL_STATE__ JSON，也不强制要求登录态。
+从页面的 window.__INITIAL_STATE__ JSON 中提取笔记的完整标题和正文。
+这是小红书 SSR 页面的标准数据结构，包含完整的笔记内容。
 """
 
 from __future__ import annotations
@@ -17,6 +16,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 import httpx
+import json5
 
 logger = logging.getLogger("scraper.http_detail")
 
@@ -25,8 +25,8 @@ DEFAULT_UA = (
     "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 )
 
-TITLE_PATTERN = re.compile(r'<meta name="og:title" content="(.*?)"\s*/?>', re.S)
-DESC_PATTERN = re.compile(r'<meta name="description" content="(.*?)"\s*/?>', re.S)
+# 匹配 window.__INITIAL_STATE__ = {...}
+INITIAL_STATE_PATTERN = re.compile(r'window\.__INITIAL_STATE__\s*=\s*({.*?})\s*</script>', re.S)
 
 
 class SessionBlockedError(Exception):
@@ -78,7 +78,7 @@ async def fetch_detail(
     client: httpx.AsyncClient, note_id: str, detail_url: str
 ) -> NoteDetail | None:
     """
-    请求笔记详情页，正则提取 og:title / description 两个 meta 标签。
+    请求笔记详情页，从 window.__INITIAL_STATE__ 提取标题和正文。
     失败（404 重定向 / 请求异常 / 提取不到正文）统一返回 None。
     """
     try:
@@ -103,16 +103,33 @@ async def fetch_detail(
 
     page_html = resp.text
 
-    title_match = TITLE_PATTERN.search(page_html)
-    desc_match = DESC_PATTERN.search(page_html)
+    # 提取 window.__INITIAL_STATE__
+    match = INITIAL_STATE_PATTERN.search(page_html)
+    if not match:
+        logger.warning("[%s] 未找到 window.__INITIAL_STATE__", note_id)
+        return None
 
-    title = html.unescape(title_match.group(1)).strip() if title_match else ""
-    # og:title 末尾固定带 " - 小红书" 网站名后缀，去掉
-    title = re.sub(r"\s*-\s*小红书\s*$", "", title)
-    content = html.unescape(desc_match.group(1)).strip() if desc_match else ""
+    state_json = match.group(1)
+
+    try:
+        # 处理 undefined 值（JavaScript 特有，JSON 不支持）
+        state_json = re.sub(r':\s*undefined\b', ': null', state_json)
+        state = json5.loads(state_json)
+    except Exception as exc:  # noqa: BLE001
+        logger.warning("[%s] 解析 __INITIAL_STATE__ 失败：%s", note_id, exc)
+        return None
+
+    # 从 state.note.noteDetailMap[note_id].note 提取数据
+    try:
+        note_data = state["note"]["noteDetailMap"][note_id]["note"]
+        title = note_data.get("title", "").strip()
+        content = note_data.get("desc", "").strip()
+    except (KeyError, TypeError) as exc:
+        logger.warning("[%s] noteDetailMap 中未找到笔记数据：%s", note_id, exc)
+        return None
 
     if not content:
-        logger.warning("[%s] 未能从详情页提取到正文（description meta 标签）", note_id)
+        logger.warning("[%s] 正文为空", note_id)
         return None
 
     return NoteDetail(note_id=note_id, title=title, content=content)

@@ -79,14 +79,14 @@ class ScrapeTask:
     target_count: int
 
 
-# 本周采集计划：覆盖不同情感强度/赛道，对应 Sprint 1 任务
+# 采集计划：少量多次策略，避免账号风控
+# 第二批：40 条候选（预计得到 200 条左右有效数据）
+# 使用不同的关键词，避免重复
 SCRAPE_PLAN: list[ScrapeTask] = [
-    ScrapeTask("青春随笔", "情感故事", 60),
-    ScrapeTask("治愈文案", "情感故事", 60),
-    ScrapeTask("成长感悟", "情感故事", 30),
-    ScrapeTask("一个人旅行", "旅行游记", 50),
-    ScrapeTask("今日份分享", "日常分享", 50),
-    ScrapeTask("考研日记", "学习职场", 50),
+    ScrapeTask("失恋文案", "情感故事", 10),
+    ScrapeTask("情感语录", "情感故事", 10),
+    ScrapeTask("今日份分享", "日常分享", 10),
+    ScrapeTask("考研日记", "学习职场", 10),
 ]
 
 OUTPUT_CSV = "calibration/data/raw_real_texts.csv"
