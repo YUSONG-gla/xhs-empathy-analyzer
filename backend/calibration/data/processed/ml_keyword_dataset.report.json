@@ -1,0 +1,32 @@
+{
+  "input_files": [
+    "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\c1756e32af6f3297\\backend\\calibration\\data\\raw_real_texts.csv",
+    "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\c1756e32af6f3297\\backend\\calibration\\data\\raw_real_texts2.csv",
+    "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\c1756e32af6f3297\\backend\\calibration\\data\\raw_real_texts3.csv"
+  ],
+  "output_file": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\c1756e32af6f3297\\backend\\calibration\\data\\processed\\ml_keyword_dataset.csv",
+  "raw_rows": 279,
+  "clean_rows": 132,
+  "removed_rows": 147,
+  "target_labels": [
+    "青春随笔",
+    "治愈文案",
+    "一个人旅行"
+  ],
+  "label_counts": {
+    "青春随笔": 47,
+    "治愈文案": 51,
+    "一个人旅行": 34
+  },
+  "excluded_reasons": {
+    "content_too_short": 11,
+    "duplicate_content": 96,
+    "keyword_not_in_target_labels": 40
+  },
+  "notes": [
+    "Rows are labeled by source_keyword for keyword-level classification.",
+    "@ mentions, emoji, URLs, and # symbols are removed during normalization.",
+    "Whitespace is normalized with re.sub(r'\\s+', ' ', text).",
+    "Duplicates are removed using normalized content only."
+  ]
+}

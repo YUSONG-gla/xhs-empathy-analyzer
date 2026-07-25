@@ -1,9 +1,8 @@
-"""Clean raw scraped texts and build one ML-ready category dataset.
+"""Clean raw scraped texts and build one ML-ready dataset.
 
-This script merges multiple raw CSV files, normalizes text, filters out rows
-outside the configured SCRAPE_PLAN categories, removes likely ad content, and
-deduplicates by normalized content. The output is a single unified CSV that is
-ready for downstream machine learning workflows.
+This script merges multiple raw CSV files, normalizes text, removes likely ad
+content, deduplicates by normalized content, and exports a single CSV for
+downstream machine learning workflows.
 """
 
 from __future__ import annotations
@@ -20,7 +19,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from calibration.scraper.config import AD_KEYWORDS, MAX_TEXT_LENGTH, MIN_TEXT_LENGTH, SCRAPE_PLAN
+from calibration.scraper.config import AD_KEYWORDS, MAX_TEXT_LENGTH, MIN_TEXT_LENGTH
 
 
 URL_RE = re.compile(r"https?://\S+|www\.\S+", re.IGNORECASE)
@@ -74,18 +73,13 @@ def stable_hash(value: str) -> str:
     return hashlib.sha1(value.encode("utf-8")).hexdigest()[:16]
 
 
-def build_category_ids() -> dict[str, int]:
-    category_order: list[str] = []
-    for task in SCRAPE_PLAN:
-        if task.category not in category_order:
-            category_order.append(task.category)
-    return {category: index for index, category in enumerate(category_order)}
+def build_label_ids(target_labels: list[str]) -> dict[str, int]:
+    return {label: index for index, label in enumerate(target_labels)}
 
 
-def prepare(input_paths: list[Path], output_path: Path) -> dict[str, object]:
-    allowed_categories = set(build_category_ids())
-    category_ids = build_category_ids()
-    allowed_keywords = {task.keyword for task in SCRAPE_PLAN}
+def prepare(input_paths: list[Path], output_path: Path, target_labels: list[str]) -> dict[str, object]:
+    label_ids = build_label_ids(target_labels)
+    allowed_keywords = set(target_labels)
 
     raw_rows = load_rows(input_paths)
     clean_rows: list[dict[str, object]] = []
@@ -96,8 +90,8 @@ def prepare(input_paths: list[Path], output_path: Path) -> dict[str, object]:
     for raw in raw_rows:
         source_category = clean_text(raw.get("category", ""))
         source_keyword = clean_text(raw.get("keyword", ""))
-        if source_category not in allowed_categories:
-            excluded_reasons["category_not_in_scrape_plan"] += 1
+        if source_keyword not in allowed_keywords:
+            excluded_reasons["keyword_not_in_target_labels"] += 1
             continue
 
         title = clean_text(raw.get("title", ""), remove_social_tokens=True)
@@ -121,8 +115,8 @@ def prepare(input_paths: list[Path], output_path: Path) -> dict[str, object]:
             continue
         seen_content.add(normalized_content)
 
-        text = content if not title or title in content else f"{title}\n\n{content}"
-        sample_id = stable_hash(f"{source_category}|{normalized_content}")
+        text = clean_text(content if not title or title in content else f"{title} {content}", remove_social_tokens=True)
+        sample_id = stable_hash(f"{source_keyword}|{normalized_content}")
         like_count_raw = clean_text(raw.get("like_count", ""))
         try:
             like_count: object = int(float(like_count_raw)) if like_count_raw else ""
@@ -136,17 +130,16 @@ def prepare(input_paths: list[Path], output_path: Path) -> dict[str, object]:
                 "title": title,
                 "content": content,
                 "text_length": len(text),
-                "label": source_category,
-                "label_id": category_ids[source_category],
+                "label": source_keyword,
+                "label_id": label_ids[source_keyword],
                 "source_category": source_category,
                 "source_keyword": source_keyword,
-                "keyword_in_scrape_plan": int(source_keyword in allowed_keywords),
                 "source_post_id": clean_text(raw.get("post_id", "")),
                 "like_count": like_count,
                 "source_file": clean_text(raw.get("source_file", "")),
             }
         )
-        label_counts[source_category] += 1
+        label_counts[source_keyword] += 1
 
     clean_rows.sort(key=lambda row: (int(row["label_id"]), -int(row["like_count"] or 0), str(row["sample_id"])))
     fieldnames = [
@@ -159,7 +152,6 @@ def prepare(input_paths: list[Path], output_path: Path) -> dict[str, object]:
         "label_id",
         "source_category",
         "source_keyword",
-        "keyword_in_scrape_plan",
         "source_post_id",
         "like_count",
         "source_file",
@@ -172,13 +164,13 @@ def prepare(input_paths: list[Path], output_path: Path) -> dict[str, object]:
         "raw_rows": len(raw_rows),
         "clean_rows": len(clean_rows),
         "removed_rows": len(raw_rows) - len(clean_rows),
-        "allowed_categories": list(category_ids.keys()),
+        "target_labels": target_labels,
         "label_counts": dict(label_counts),
         "excluded_reasons": dict(excluded_reasons),
         "notes": [
-            "Rows are labeled by SCRAPE_PLAN category for category-level classification.",
-            "Rows outside SCRAPE_PLAN categories are excluded.",
-            "keyword_in_scrape_plan marks whether the original keyword was explicitly listed in SCRAPE_PLAN.",
+            "Rows are labeled by source_keyword for keyword-level classification.",
+            "@ mentions, emoji, URLs, and # symbols are removed during normalization.",
+            "Whitespace is normalized with re.sub(r'\\s+', ' ', text).",
             "Duplicates are removed using normalized content only.",
         ],
     }
@@ -196,12 +188,15 @@ def main() -> None:
         base_dir / "raw_real_texts3.csv",
     ]
 
-    parser = argparse.ArgumentParser(description="Prepare one ML-ready category dataset from raw scraped CSV files")
+    default_labels = ["青春随笔", "治愈文案", "一个人旅行"]
+
+    parser = argparse.ArgumentParser(description="Prepare one ML-ready keyword dataset from raw scraped CSV files")
     parser.add_argument("--inputs", type=Path, nargs="*", default=default_inputs)
-    parser.add_argument("--output", type=Path, default=base_dir / "processed" / "ml_category_dataset.csv")
+    parser.add_argument("--output", type=Path, default=base_dir / "processed" / "ml_keyword_dataset.csv")
+    parser.add_argument("--labels", nargs="*", default=default_labels)
     args = parser.parse_args()
 
-    report = prepare(args.inputs, args.output)
+    report = prepare(args.inputs, args.output, args.labels)
     print(json.dumps(report, ensure_ascii=False, indent=2))
 
 
