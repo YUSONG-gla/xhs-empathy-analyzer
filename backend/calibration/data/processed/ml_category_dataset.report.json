@@ -1,0 +1,32 @@
+{
+  "input_files": [
+    "D:\\Users\\Claire\\Documents\\GitHub\\feishu\\backend\\calibration\\data\\raw_real_texts.csv",
+    "D:\\Users\\Claire\\Documents\\GitHub\\feishu\\backend\\calibration\\data\\raw_real_texts2.csv",
+    "D:\\Users\\Claire\\Documents\\GitHub\\feishu\\backend\\calibration\\data\\raw_real_texts3.csv"
+  ],
+  "output_file": "D:\\Users\\Claire\\Documents\\GitHub\\feishu\\backend\\calibration\\data\\processed\\ml_category_dataset.csv",
+  "raw_rows": 279,
+  "clean_rows": 133,
+  "removed_rows": 146,
+  "allowed_categories": [
+    "情感故事",
+    "日常分享",
+    "学习职场"
+  ],
+  "label_counts": {
+    "情感故事": 112,
+    "日常分享": 16,
+    "学习职场": 5
+  },
+  "excluded_reasons": {
+    "content_too_short": 11,
+    "duplicate_content": 96,
+    "category_not_in_scrape_plan": 39
+  },
+  "notes": [
+    "Rows are labeled by SCRAPE_PLAN category for category-level classification.",
+    "Rows outside SCRAPE_PLAN categories are excluded.",
+    "keyword_in_scrape_plan marks whether the original keyword was explicitly listed in SCRAPE_PLAN.",
+    "Duplicates are removed using normalized content only."
+  ]
+}

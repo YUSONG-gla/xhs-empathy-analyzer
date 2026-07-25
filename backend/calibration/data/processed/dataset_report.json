@@ -1,0 +1,71 @@
+{
+  "input_file": "D:\\Users\\Claire\\Documents\\GitHub\\feishu\\backend\\calibration\\data\\raw_real_texts.csv",
+  "raw_rows": 181,
+  "clean_rows": 146,
+  "removed_rows": 35,
+  "label_plan": [
+    {
+      "keyword": "青春随笔",
+      "category": "情感故事",
+      "target_count": 60,
+      "label_id": 0
+    },
+    {
+      "keyword": "治愈文案",
+      "category": "情感故事",
+      "target_count": 60,
+      "label_id": 1
+    },
+    {
+      "keyword": "成长感悟",
+      "category": "情感故事",
+      "target_count": 30,
+      "label_id": 2
+    },
+    {
+      "keyword": "一个人旅行",
+      "category": "旅行游记",
+      "target_count": 50,
+      "label_id": 3
+    },
+    {
+      "keyword": "今日份分享",
+      "category": "日常分享",
+      "target_count": 50,
+      "label_id": 4
+    },
+    {
+      "keyword": "考研日记",
+      "category": "学习职场",
+      "target_count": 50,
+      "label_id": 5
+    }
+  ],
+  "observed_label_counts": {
+    "情感故事/青春随笔": 99,
+    "情感故事/治愈文案": 17,
+    "旅行游记/一个人旅行": 30
+  },
+  "all_label_counts": {
+    "情感故事/青春随笔": 99,
+    "情感故事/治愈文案": 17,
+    "情感故事/成长感悟": 0,
+    "旅行游记/一个人旅行": 30,
+    "日常分享/今日份分享": 0,
+    "学习职场/考研日记": 0
+  },
+  "split_counts": {
+    "train": 116,
+    "valid": 15,
+    "test": 15
+  },
+  "excluded_reasons": {
+    "content_too_short": 14,
+    "duplicate_text": 21
+  },
+  "notes": [
+    "post_id is retained as source_post_id but is not used as a unique key.",
+    "Labels come from the scrape keyword and should be manually reviewed before supervised training.",
+    "@ mentions, emoji, and # symbols are removed; whitespace is normalized with re.sub(r'\\s+', ' ', text)."
+  ]
+}
