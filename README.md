@@ -144,6 +144,8 @@ cp .env.example .env
 uvicorn main:app --reload --port 8000
 ```
 
+On Windows, you can also run `start.cmd` from the project root to start the backend.
+
 访问 `http://localhost:8000/docs` 查看 Swagger 接口文档。
 
 ### 2. 启动前端

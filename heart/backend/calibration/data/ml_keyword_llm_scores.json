@@ -1,0 +1,2246 @@
+[
+  {
+    "story_id": "00717a75ed8b3358",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 4.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.54,
+    "evaluation": "该文本以诗意化的意象和简洁的语言传达了遗憾与困顿的情绪，在情感和环境生动性上具有一定感染力，但整体篇幅短小，情节体量不足，缺乏矛盾解决和角色发展，导致叙事深度有限。文本的脆弱性表达较为含蓄，认知反思未充分展开，情绪转变幅度较小，整体共情唤起能力中等，主要依赖意象营造氛围而非完整故事或深刻心理刻画。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "01e5eddb8fb71f71",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 6.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.2,
+    "evaluation": "综合评价：该文本情感表达极为平淡，缺乏生动性和具体细节，难以唤起读者强烈共情。文本内容泛化，缺少个人化经历和脆弱性展现，认知深度不足。虽然语气平静中性，但整体叙事体量过小，无矛盾冲突和角色发展，情绪转变微弱。优势在于传递了一种平和的生活态度，但共情力整体较弱，需增加具体情境和情感细节以提升感染力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "030f42cc8c8dcddd",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 2.0,
+      "tone": 4.0,
+      "volume": 4.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 4.62,
+    "evaluation": "综合评价：该文本以诗意和意象化的语言表达了INFP内心的孤独与浪漫，情感生动性尚可，但缺乏具体情境和叙事支撑，导致共情唤起更多依赖读者自身的联想。文本在脆弱性上有所体现，但认知深度和情节发展明显不足，整体情绪基调偏悲观且缺乏转变。优势在于语言的美感和象征性，不足在于叙事性和个人化细节的缺失，难以让读者产生深层次的代入感。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "0493115218d64697",
+    "llm_scores": {
+      "vividness_emotion": 10.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 10.0,
+      "tone": 8.0,
+      "volume": 6.0,
+      "resolution": 8.0,
+      "development": 8.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 8.54,
+    "evaluation": "综合评价：该文本以细腻的感官描写和深刻的自我反思，成功唤起读者对独旅的向往和共鸣。情感生动性突出，认知丰富，但环境描写和情节体量稍显不足，削弱了沉浸感。整体语气积极，角色成长明显，共情力较强，尤其适合INFJ等内向型读者。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "07d44b2d3a8ead8e",
+    "llm_scores": {
+      "vividness_emotion": 10.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 2.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 7.56,
+    "evaluation": "综合评价：该文本在情感生动性上表现突出，通过丰富的比喻和意象深刻传达了十三岁少年的痛苦与孤独，能有效唤起读者的情感共鸣。然而，文本在环境描写、情节体量和角色发展方面较为薄弱，缺乏具体事件支撑，使得叙事略显单薄。语气整体悲观，矛盾解决和情绪转变程度较低，但结尾的意象为文本增添了一丝希望。总体而言，文本在情感渲染上极具感染力，但在叙事完整性和角色成长方面仍有提升空间。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "080475f59973b93f",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 4.62,
+    "evaluation": "综合评价：该文本以简洁的语句表达了对文字力量的喜爱和共鸣，情感真挚但缺乏深度和细节。在情感生动性上有所体现，但环境描写、角色脆弱性和情节体量均不足，导致共情力有限。文本整体语气乐观，但缺乏情绪转变和角色发展，难以引发读者深层次的共情。建议增加具体场景和个人经历描述，以增强文本的感染力和共情效果。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "09914b430c115480",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 6.0,
+      "resolution": 6.0,
+      "development": 4.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 6.04,
+    "evaluation": "综合评价：该文本以轻松愉快的笔触记录了丽江的旅行见闻，情感真实自然，能传递出作者的喜悦与满足。在环境生动性和语气情绪方面表现较好，能让读者感受到丽江的魅力。但在角色脆弱性、认知深度和角色发展方面略显不足，文本更偏向于旅行分享而非深度情感叙事。总体而言，能唤起读者对丽江的向往，但在引发深层共情上还有提升空间。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "0bf1122b7638e6e8",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 8.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.3,
+    "evaluation": "综合来看，该文本是一段简短的社交分享，主要功能是传递祝福和推广话题，而非叙事或情感表达。在情感生动性、环境描写、角色塑造等核心共情维度上均表现薄弱，缺乏具体细节和故事性，难以唤起读者深层的情感共鸣。其优势在于语气积极乐观，能传递一定的善意，但整体共情力较低。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "0ff24c5d403a6d13",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 6.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.2,
+    "evaluation": "综合评价：该文本为典型的社交媒体旅行咨询帖，内容高度功能化，缺乏叙事性和情感表达。在共情力评估中，所有维度得分均处于低分段，因为文本未提供任何故事元素、情感细节或个人经历。其优势在于明确传达了用户需求，但作为叙事文本，几乎无法唤起读者共情。若要提升共情力，需补充个人动机、情感体验或具体场景描述。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "12891d72e2b7cb5a",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.16,
+    "evaluation": "该文本以个人反思为主，情感真实但表达较为抽象，缺乏具体场景和细节支撑，导致生动性和代入感不足。作者展现了适度的脆弱性，但认知深度和情节丰富度有限，矛盾未得到解决，角色发展不明显。整体共情力中等，能引发读者对自我表达的共鸣，但感染力受限于文本的简短和模糊。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "140670a88193455e",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 6.0,
+      "resolution": 4.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.28,
+    "evaluation": "该文本以温柔治愈的语录形式，通过大量肯定与接纳性语言直接传递情感支持，在情感生动性和语气乐观度上表现较好，能有效唤起读者的温暖与共鸣。然而，文本缺乏具体场景、人物和情节支撑，导致环境生动性、角色发展和矛盾解决等维度得分较低，共情更多依赖抽象共情而非叙事沉浸。整体上，文本适合作为情感抚慰素材，但在叙事深度和个体化体验上有所欠缺，限制了共情力的全面发挥。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "15786b4b71e84b93",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 2.0,
+      "resolution": 4.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.58,
+    "evaluation": "综合评价：该文本以议论性口吻探讨独自旅行的挑战，缺乏具体叙事和情感细节，难以引发读者情感共鸣。优势在于对旅行心理的理性认知，但整体共情力较弱，未能通过生动场景、人物脆弱性或情绪变化来打动读者。建议增加个人经历叙述和细节描写以提升共情效果。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "19b84b2099e60aa6",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 5.2,
+    "evaluation": "综合评价：该文本以简洁的散文式语言表达了对时间流逝和情感变化的个人感悟，情感基调中性偏积极，具有一定的认知深度。然而，在环境描写、情节体量和角色发展方面较为薄弱，缺乏具体细节和故事性，导致整体共情唤起力有限。若能丰富场景细节、深化个人脆弱性表达并增加情绪转变的层次，将更有效地引发读者共鸣。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "1d561daed369707e",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 4.0,
+      "resolution": 6.0,
+      "development": 6.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 5.22,
+    "evaluation": "综合评价：该文本真实地反映了青少年在优绩主义下的心理挣扎，情感表达自然，认知反思有一定深度。但在环境描写和情节丰富度上较为薄弱，削弱了读者的沉浸感。角色成长和情绪转变虽存在，但不够鲜明，整体共情力中等。若能增加具体场景和细节，将更能唤起读者的共鸣。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "1e0781bb786c363f",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 2.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.34,
+    "evaluation": "该文本作为文学摘录合集，在情感和环境生动性上表现中等，通过优美的比喻和意象营造出诗意氛围，但缺乏具体人物和情节，导致角色脆弱性、故事发展和矛盾解决等维度得分极低。整体语气乐观温暖，但认知深度有限，情绪转变平缓。文本更适合作为美学欣赏，而非共情叙事，在唤起读者深层情感共鸣方面存在明显不足。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "20339b4cb332d8c6",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 4.86,
+    "evaluation": "综合评价：该文本以简练有力的语言传递了积极向上的生命力，能够引发读者共鸣，但在情感和环境描写上缺乏具体细节，削弱了共情深度。角色脆弱性和认知表述较为薄弱，限制了读者对文本的深入投入。整体语气乐观，但情节和矛盾处理简单，导致叙事张力不足。建议增加具体场景和个人化经历，以增强共情力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "225f9e3069c19d39",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.76,
+    "evaluation": "综合评价：该文本以诗意的引用和简洁的个人感受，营造出宁静而略带迷茫的氛围，情感和环境生动性中等，能引发读者对星空和生命指引的共鸣。然而，文本篇幅短小，情节体量有限，角色脆弱性和认知深度不足，矛盾解决和角色发展程度较低，情绪转变平缓。整体共情力中等偏下，但优美的语言和普遍性主题仍能唤起一定的情感共鸣。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "22a562e9d4c334c0",
+    "llm_scores": {
+      "vividness_emotion": 10.0,
+      "vividness_setting": 10.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 6.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 8.48,
+    "evaluation": "该文本在情感与环境生动性上表现突出，通过细腻的多感官描写和真挚的情感抒发，成功唤起读者对热带生活的向往与共情。但角色脆弱性和认知深度稍显不足，缺乏个人故事支撑，使共情停留在氛围层面。整体情绪基调偏怀旧，矛盾未解决，角色发展有限，但文本的文学性和感染力弥补了部分不足，适合引发情感共鸣而非深度叙事体验。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "25297e4f46274248",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.66,
+    "evaluation": "该文本以诗意的语言表达了成长带来的遗憾和失落，情感基调统一，但整体较为抽象，缺乏具体细节和情节支撑，导致共情力有限。在情感和环境生动性上虽有一定表现，但角色脆弱性和认知深度不足，矛盾解决和角色发展也较为薄弱。若能增加具体经历和情感细节，将更能唤起读者的共鸣。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "262de1357b768360",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 8.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.3,
+    "evaluation": "综合评价：该文本更像是一句简短的夏日寄语或标签集合，缺乏具体叙事和情感细节，在情感生动性、环境描绘、角色脆弱性等核心共情维度上均表现薄弱。其优势在于语气乐观，传递了积极向上的态度，但整体内容过于空泛，难以让读者产生深层次的情感共鸣。若要提升共情力，需要补充具体场景、个人经历和情感变化。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "27f57f9de499787d",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 8.0,
+      "development": 6.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 5.48,
+    "evaluation": "综合评价：该文本以简洁的治愈系文字传达了从自我压抑到自我接纳的积极转变，情感基调温暖向上，能引发读者对生活态度的共鸣。然而，文本缺乏具体场景和人物细节，情感表达较为抽象，削弱了共情的深度。在环境描写和情节体量上明显不足，使得整体叙事性较弱。若能补充具体的生活片段或个人经历，将更有效地唤起读者的情感共鸣。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "29463577be64833d",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 8.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.3,
+    "evaluation": "综合评价：该文本为简短的幸福主题文案集合，内容高度概括且缺乏具体叙事，情感表达流于表面，难以引发深层共情。优势在于语气积极乐观，能传递正向情绪；但不足在于缺乏生动细节、个人化经历和情节支撑，整体共情力较弱。建议补充具体故事场景和情感细节以增强感染力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "2b67401ce70c22a2",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 2.0,
+      "resolution": 4.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 4.68,
+    "evaluation": "该文本是一段富有哲思的短句摘抄，以比喻手法传递从容生活的人生态度，情感基调温和治愈，但缺乏具体情节、角色和场景描写，导致叙事性较弱。在认知表述上虽有一定深度，但整体共情力主要依赖于读者的共鸣而非文本自身的感染力。建议增加个人化经历或细节描写，以提升情感生动性和角色脆弱性，从而增强共情效果。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "2f52b2217dc7c10c",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.2,
+    "evaluation": "综合评价：该文本以温柔治愈的风格为主，通过大量肯定和鼓励性语句直接向读者传递共情，情感基调积极，能有效给予读者情感支持。然而，文本缺乏具体情境、角色和情节，导致情感表达较为抽象，环境生动性和角色发展维度得分较低。认知表述虽有一定深度，但多为格言式总结，缺乏个人化反思。整体上，文本在情感关怀和语气上表现出色，但在叙事性和个人化细节上有所欠缺，共情力主要依赖于直接的情感呼吁而非故事性共鸣。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "31f0256ed0ef3f33",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.88,
+    "evaluation": "该文本是一篇典型的实用型旅行攻略，侧重于提供具体、可操作的信息，如准备物品、行程安排和费用明细。在共情力方面，它几乎不涉及个人情感、内心体验或叙事性内容，导致读者难以与作者产生情感连接。虽然环境生动性因地点列举而略有得分，但整体缺乏故事性、脆弱性和认知深度，使得共情唤起能力非常有限。若希望提升共情力，建议融入个人旅行中的小故事、情绪波动或对所见所闻的反思。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "31f2565df1c33d26",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.76,
+    "evaluation": "该文本以书信体形式展开，情感细腻但表达含蓄，环境与角色塑造较为薄弱，认知思考虽有一定深度但不够具体。整体共情力中等，能唤起读者对青春与成长的共鸣，但在情节丰富度、矛盾解决和角色发展方面明显不足，导致情感冲击力有限。若能增加具体场景细节和情感起伏，共情效果将更佳。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "330990eb717f46d2",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 6.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.2,
+    "evaluation": "该文本为关键词列表，缺乏叙事性和情感表达，难以唤起读者共情。优势在于明确指向'幸福感'主题，但未展开任何具体内容。不足在于所有维度得分极低，无法形成情感共鸣。建议补充具体场景、情感细节和个人体验，以增强共情力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "33a89541b56dbf56",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.16,
+    "evaluation": "该文本以村上春树的引言为引子，表达了青春期的迷茫与对'深刻'的反思，情感上具有一定的共鸣性，但整体描写较为抽象，缺乏具体场景和细节支撑。环境生动性和情节体量较弱，使得共情力受限。认知思考虽有一定深度，但表述简洁，未能充分展开。综合评价，文本在唤起读者对青春感悟的共鸣上有所成效，但在叙事丰富性和情绪感染力上仍有提升空间。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "3419e78cb654af1b",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 8.0,
+      "volume": 2.0,
+      "resolution": 4.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.36,
+    "evaluation": "综合评价：该文本作为一句简短文案，在情感生动性、环境描写、角色脆弱性等核心共情维度上表现薄弱，缺乏具体细节和叙事支撑，难以唤起读者深度共情。其优势在于语气乐观、主题积极，能传递一定的鼓励感，但整体内容过于抽象和碎片化，共情力有限。若需提升共情效果，建议补充具体场景、人物经历或情感细节，使抽象观点更具代入感。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "35c5e4fc8ecb32c9",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.66,
+    "evaluation": "该文本以诗意的语言描绘了青春夏日场景，情感和环境描写具有一定生动性，但整体内容较为简短，情节和角色发展不足。文本在唤起共情方面主要依靠意象和氛围的营造，但缺乏具体细节和情感深度，使得读者难以产生强烈的情感共鸣。优势在于语言优美，能引发对青春时光的联想；不足在于叙事性较弱，情感表达较为含蓄，限制了共情力的发挥。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "38e6357a11b7c6f0",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 2.0,
+      "resolution": 4.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 4.92,
+    "evaluation": "该文本以隐喻方式表达了青春期失声的痛苦，情感主题明确但缺乏具体细节支撑，环境描写和情节体量均不足。角色脆弱性有一定体现，但认知思考深度有限。语气从悲观转向希望，但情绪转变缺乏铺垫。整体上，文本在唤起共情方面有主题优势，但叙事完整性和细节丰富度有待提升。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "394eb28b6613d1af",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 4.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.1,
+    "evaluation": "该文本篇幅极短，仅有一句抽象的情感表达，缺乏具体的情节、人物和环境描写，导致其在所有维度上的得分都很低。文本虽然触及了青春遗憾的主题，但表达过于模糊和笼统，未能构建出能够引发读者共情的具体情境或人物形象。整体上，文本的共情唤起能力非常有限，更像是一句简短的感慨而非一个完整的故事。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "39d21f870773cc0e",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 6.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.2,
+    "evaluation": "综合评价：该文本本质上是社交媒体上的话题标签集合，缺乏具体的叙事内容、人物塑造和情感描写，因此几乎无法唤起读者的共情。其优势仅在于通过“治愈”“温和”等关键词暗示了一种积极情绪基调，但缺乏任何实质性内容来支撑这种暗示。整体而言，该文本在共情力各维度上均表现极弱，属于高度抽象、非叙事性的文本，难以引发读者的情感共鸣。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "3c0031898a8f2039",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 6.0,
+      "resolution": 6.0,
+      "development": 4.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 6.04,
+    "evaluation": "综合评价：该文本以实用攻略为主，情感表达较为克制，但能通过具体经历（如船宿条件差、日出惊艳）引发读者对旅行体验的共鸣。优势在于提供了真实细节和实用建议，增强了可信度；不足在于情感深度和认知反思有限，削弱了共情感染力。整体上，文本能唤起读者对目的地的兴趣，但在情感共鸣层面仍有提升空间。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "3fa2c91da42b79d1",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 6.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 4.86,
+    "evaluation": "综合评价：该文本以治愈系格言和哲理短句为主，情感温暖、语气积极，能传递一定的慰藉与希望。然而，由于缺乏具体场景、人物和情节，文本的生动性和代入感较弱，难以引发深层次的共情。认知思考虽丰富，但多为引用，个人化表达不足。整体上，文本适合作为心灵鸡汤式的鼓励，但在共情力上仍有提升空间。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "409669d410e275a5",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 4.56,
+    "evaluation": "该文本以诗意的语言表达了对自由散漫的渴望，情感真挚但缺乏具体细节和情节支撑，导致共情力有限。环境描写和角色脆弱性不足，难以让读者深入代入。认知反思虽有一定深度，但表述笼统。整体语气中性，情绪转变平缓，故事性和发展性较弱。建议增加具体场景和个人化经历，以增强情感共鸣。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "4101520bd7ce51ea",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 6.0,
+      "resolution": 8.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 6.06,
+    "evaluation": "综合评价：该文本以积极乐观的笔触记录了在槟城青旅的愉快体验，情感和环境描写虽有一定生动性，但缺乏深度和细节。角色脆弱性和认知表述较为浅层，情节体量适中，矛盾解决彻底，但角色发展和情绪转变程度较低。整体共情力中等，能唤起读者对独自旅行安全与舒适的共鸣，但在情感共鸣和叙事深度上仍有提升空间。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "41c2358351d63c9e",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 2.0,
+      "resolution": 4.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 4.68,
+    "evaluation": "该文本是一段抒情祝福语，情感基调积极温暖，但缺乏具体叙事和细节支撑，共情唤起能力有限。优势在于语气乐观、主题美好，容易引发共鸣；不足是情节单薄、角色缺失、情感表达抽象，难以让读者深入代入。整体共情力中等偏下，适合作为简短鼓励，但不足以构成强共情叙事。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "44d92bf884230754",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 2.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.46,
+    "evaluation": "该文本以治愈系散文风格为主，通过优美的自然意象和积极的生命哲思唤起读者的共鸣，在情感生动性和语气乐观度上表现较好。但文本缺乏具体角色和情节支撑，脆弱性、发展性和矛盾解决程度较低，整体叙事性较弱。建议增加个人化经历或细节描写，以增强共情深度。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "470fcb02a7b35c0b",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 6.0,
+      "development": 4.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 5.26,
+    "evaluation": "综合评价：该文本以青春为主题，通过多位人物的经历引发共鸣，情感真实但表达较为概括，缺乏生动的场景和细节描写。文本在认知层面有一定深度，提出了对青春和记忆的反思，但角色脆弱性和发展程度不足，削弱了共情深度。整体语气积极，能给予读者启发，但情节体量较小，情绪转变不够剧烈，共情力中等。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "472061ce05e9cd02",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 8.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.98,
+    "evaluation": "综合评价：该文本以轻松愉快的口吻分享了独自旅行中请路人拍照的经历，情感积极，氛围乐观，能传递出旅行的随性与惊喜。但在情感深度、环境细节和情节丰富度上较为欠缺，对内心脆弱性和角色成长的刻画不足，限制了共情力的进一步发挥。整体上是一篇能引发共鸣但深度有限的旅行随笔。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "493f01f5e518b17c",
+    "llm_scores": {
+      "vividness_emotion": 10.0,
+      "vividness_setting": 10.0,
+      "vulnerability": 10.0,
+      "cognition": 10.0,
+      "tone": 2.0,
+      "volume": 6.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 8.84,
+    "evaluation": "综合评价：该文本在情感与环境生动性上表现卓越，通过密集的感官细节和强烈的情感渲染，成功营造出压抑窒息的夏日氛围，能迅速引发读者对负面情绪的身临其境之感。作者对个人脆弱性的袒露和认知层面的深入剖析，进一步增强了文本的共情深度。然而，文本在情节体量、矛盾解决、角色发展和情绪转变方面明显不足，整体叙事呈静态、停滞状态，缺乏动态变化和成长弧光。这种高度聚焦于负面情绪且无出路的表达，虽强化了悲观基调，但也限制了共情在更广阔叙事维度上的展开。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "49857ea31f5ba69d",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 8.0,
+      "development": 6.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 5.08,
+    "evaluation": "该文本以青春夏日为主题，情感基调积极向上，能引发读者对青春与当下的共鸣，但情感表达较为抽象，缺乏具体细节支撑，削弱了共情深度。环境描写和角色脆弱性维度得分较低，使文本显得不够个人化。认知反思和矛盾解决方面表现较好，整体能传递正向情绪，但情节体量较小，故事性不足。建议增加具体场景或经历描述，以增强情感感染力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "4a9b92ac74054b01",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.16,
+    "evaluation": "该文本以抒情短句表达爱意与自卑，情感真挚但抽象，缺乏具体场景和叙事支撑，导致共情唤起有限。优势在于认知性金句（如'爱是自卑弃暗投明的时刻'）能引发共鸣，但环境、情节和角色发展的缺失削弱了整体感染力。建议增加具体细节和情感起伏，以增强读者的代入感。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "4b3fad8edebf7d04",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.52,
+    "evaluation": "该文本以实用信息为主，强调独自旅行的经济优势，但缺乏情感深度和叙事细节，难以引发读者共情。优势在于提供了具体的成本对比，但劣势在于没有个人故事、情感表达或环境描写，导致共情力较低。建议增加个人体验、情感波动和场景细节，以提升文本的感染力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "52e8e15d62097706",
+    "llm_scores": {
+      "vividness_emotion": 10.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 7.86,
+    "evaluation": "综合评价：该文本以高度诗意的语言和丰富的感官意象，成功营造了强烈的情感沉浸感，尤其在情感生动性上表现突出，能有效唤起读者的共情。然而，文本在情节体量、角色发展和矛盾解决上较为薄弱，更多是静态的情感描绘，缺乏叙事张力。整体上，文本擅长传递细腻的内心感受，但在故事性和角色深度上有所欠缺，适合作为抒情散文而非完整叙事。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "55b1b014e0c9eb8c",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.06,
+    "evaluation": "该文本以内心独白形式表达了作者对自我状态的不满和对自洽的渴望，情感真实但缺乏具体细节，导致共情力有限。环境描写缺失，情节单薄，削弱了代入感。认知反思虽有一定深度，但表述笼统。语气从悲观向积极过渡，但转变不够明显。整体上，文本能引发读者对自我成长的共鸣，但在生动性和故事性上有所欠缺，共情唤起效果中等。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "596a789706c1e8d9",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 6.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.84,
+    "evaluation": "综合评价：该文本以清单形式描绘了一种文艺而孤独的旅行方式，情感和环境生动性中等，能唤起读者对自由与孤独的共鸣，但缺乏深度情感挖掘和角色成长。语气中性，情节体量适中，但矛盾解决和情绪转变较弱，整体共情力中等偏上，适合引发轻度共鸣而非强烈情感冲击。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "59ec6a5c2b47bfda",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 4.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 4.1,
+    "evaluation": "该文本以诗意的语言表达了强烈的情感意象，在情感生动性方面有一定表现，但整体篇幅过短，缺乏具体的情节、人物和环境描写，导致共情力不足。文本的抽象表达虽然营造了美感，但未能让读者深入理解角色的内心世界或经历，难以产生强烈的共鸣。建议丰富叙事细节，增加人物脆弱性和认知表述，以提升文本的共情效果。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "5dde6da2d998e206",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 6.0,
+      "development": 6.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.88,
+    "evaluation": "该文本以晒被子的回忆为切入点，成功唤起了读者对青春和无忧时光的共鸣，情感真挚且具有普遍性。环境描写和情感表达虽有一定生动性，但细节和深度不足，限制了共情力的进一步提升。认知反思部分为文本增添了成长意味，但整体情节和情绪转变较为平缓。综合评价，文本在唤起怀旧共情方面表现良好，但在情感强度和叙事丰富度上仍有提升空间。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "5e436e92a9ee2645",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.94,
+    "evaluation": "综合评价：该文本为典型的旅行攻略，侧重于实用信息分享，缺乏情感叙事和个人体验的深度挖掘。在情感生动性、角色脆弱性和认知表述方面得分较低，难以唤起读者共情。环境描写虽有一定具体性，但未形成沉浸感。整体而言，文本功能性较强，共情力较弱，建议增加个人感受、心理活动及故事性元素以提升共情效果。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "61a97b1cc957ac6c",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 10.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 6.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.54,
+    "evaluation": "综合评价：该文本以理性思辨为主，认知表述丰富度极高，对流行观点进行了深入剖析，展现了作者的独立思考能力。然而，文本缺乏具体场景和情节支撑，情感与环境生动性不足，角色脆弱性体现有限，导致共情唤起主要依赖认知共鸣而非情感代入。整体上，文本在引发读者理性反思方面有优势，但在情感感染力和故事性上有所欠缺。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "63714c824e4f930c",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 6.0,
+      "resolution": 8.0,
+      "development": 8.0,
+      "emo_shift": 8.0
+    },
+    "total_score": 6.26,
+    "evaluation": "综合评价：该文本以幽默和自嘲的方式展现了个人旅行中的情感转变，从焦虑到自由，情绪起伏明显，角色发展清晰。情感和环境生动性方面有一定表现，但细节描写不够丰富，削弱了共情深度。认知表述和脆弱性展现适中，整体语气乐观，矛盾解决彻底，能够唤起读者对自由和自我突破的共鸣。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "64005bbac69e26b7",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 5.3,
+    "evaluation": "该文本以细腻的笔触记录了作者写作时的情绪状态，情感表达真实但略显抽象，缺乏具体场景和细节支撑，削弱了读者的代入感。角色脆弱性适中，作者坦诚了内心的困惑与空落，但个人化信息有限。文本语气温和，结尾的祝福带来一丝暖意，但整体情节体量小，矛盾和发展不足，情绪转变平缓。综合来看，文本在情感共鸣上有一定潜力，但需要更丰富的叙事细节和情感层次来增强共情力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "656283820378416d",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 6.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.2,
+    "evaluation": "综合评价：该文本是一篇简短的旅行攻略摘要，以实用信息为主，缺乏情感表达、场景描绘和个人故事，共情力极低。优势在于信息明确、结构清晰，但几乎无法唤起读者的情感共鸣。若想提升共情力，需增加个人经历细节、内心感受和环境描写，使读者能代入角色体验。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "67bbfc348103dfe3",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 6.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.32,
+    "evaluation": "综合评价：文本以积极的口吻分享了女性独自旅行的经历和感悟，情感上具有感染力，但缺乏具体细节和深度描写，导致共情力有限。环境描写和情节丰富度不足，使读者难以沉浸其中。角色脆弱性和认知表述虽有一定体现，但不够深入。整体上，文本能引发共鸣，但叙事层次较浅，建议增加具体场景和情感细节以提升共情效果。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "67e7ee59f8161713",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 4.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 4.1,
+    "evaluation": "综合评价：该文本以极简的语句表达了青春暗恋的遗憾，情感基调明确但缺乏具体细节支撑，导致情感生动性和角色脆弱性不足。环境描写和情节体量极为有限，难以让读者产生沉浸感。认知反思较为浅层，角色发展几乎为零，整体共情唤起能力较弱。若能在情感细节、环境氛围和角色内心活动上加以丰富，将显著提升共情力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "6b8bcd25bb5bf61b",
+    "llm_scores": {
+      "vividness_emotion": 10.0,
+      "vividness_setting": 10.0,
+      "vulnerability": 6.0,
+      "cognition": 10.0,
+      "tone": 4.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 8.62,
+    "evaluation": "综合评价：该文本以诗意的语言和生动的意象，成功唤起了读者对青春逝去的共情，尤其在情感和环境生动性上表现突出。认知反思的深度增强了文本的感染力，但情节体量较小，矛盾解决和角色发展不足，使得整体叙事性较弱。语气偏悲观，但情绪转变有一定层次。总体而言，文本在情感共鸣上优势明显，但在故事性和成长弧光上有所欠缺。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "6ba7f03a4c6a9e3f",
+    "llm_scores": {
+      "vividness_emotion": 10.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 10.0,
+      "tone": 6.0,
+      "volume": 6.0,
+      "resolution": 8.0,
+      "development": 8.0,
+      "emo_shift": 8.0
+    },
+    "total_score": 8.48,
+    "evaluation": "综合评价：该文本以诗意的语言和密集的意象深刻传达了面对命运时的痛苦、挣扎与最终和解，情感生动性和认知丰富度极高，能强烈唤起读者的情感共鸣。角色从脆弱到顿悟的发展轨迹清晰，矛盾解决彻底，情绪转变富有层次。不足之处在于环境描写较为抽象，个人化细节偏少，可能削弱部分读者的代入感，但整体共情力表现优秀。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "6c193430de67e50c",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 2.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 2.94,
+    "evaluation": "该文本以分享个人旅行经历为主，情感表达和场景描写较为薄弱，难以让读者产生强烈的画面感和情绪共鸣。虽然语气积极，但缺乏对内心世界和成长过程的深入挖掘，角色脆弱性和认知反思不足。整体故事体量小，矛盾解决简单，共情唤起能力有限。建议增加具体细节、情感波动和反思内容，以提升文本的感染力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "6ec498885ab867c5",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 4.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 4.54,
+    "evaluation": "综合评价：该文本以简洁的语句表达了对青春逝去的普遍性感慨，情感基调统一，但缺乏具体细节和个人化叙事，导致情感生动性和角色脆弱性不足。环境描写几乎缺失，情节体量小，矛盾解决和角色发展均未体现，整体共情力较弱。若能补充具体场景、个人经历和情感转折，将更能唤起读者的共鸣。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "6ef3ec35a80b3870",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 5.7,
+    "evaluation": "该文本以细腻的笔触描绘了学生时代的压抑与梦想，情感真挚但表达较为含蓄，缺乏具体情节和强烈的情感爆发点，削弱了共情冲击力。环境描写和角色脆弱性呈现中等水平，认知反思虽有意蕴但不够深入。整体基调偏感伤，矛盾未得到解决，角色发展不明显，但情绪有一定起伏。文本在唤起读者对青春共鸣方面有一定优势，但在情感生动性和叙事丰富度上仍有提升空间。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "7044e2556faff069",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 8.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 4.34,
+    "evaluation": "该文本以简短感叹和话题标签传递温暖治愈的情绪，情感基调积极，但缺乏具体叙事、环境描写和个人化细节，导致共情力有限。优势在于语气乐观，能引发读者对温暖感受的共鸣；不足是内容过于碎片化，没有故事支撑，难以让读者深入共情。整体上，文本更像一种情绪宣言，而非完整的叙事文本，因此各维度得分普遍偏低。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "718f7dbff2a52ed5",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 8.0,
+      "development": 6.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 5.38,
+    "evaluation": "该文本以个人经验分享形式探讨独自旅行，情感真实但表达较为概括，缺乏生动的场景和细节描写，削弱了共情感染力。作者坦露了自我怀疑和孤独，但脆弱性挖掘不深，认知反思也较浅。语气从悲观转向积极，矛盾解决较彻底，但情节体量小，角色发展有限。整体上，文本能引发读者对独自旅行的共鸣，但在情感细腻度和叙事丰富度上仍有提升空间。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "7246d31c97d43a7a",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 6.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 4.92,
+    "evaluation": "该文本以积极治愈的基调传递生命意义，情感表达较为生动，但缺乏具体环境和人物细节，削弱了共情深度。认知思考有一定体现，但情节和角色发展不足，整体共情力中等。若能增加个人经历或脆弱性描写，将更能引发读者共鸣。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "760b1228ff0cde6d",
+    "llm_scores": {
+      "vividness_emotion": 10.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 4.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 7.54,
+    "evaluation": "综合评价：文本在情感生动性上表现出色，通过独特的意象和感官描写成功唤起读者对青春爱情的共鸣。然而，在情节体量、矛盾解决和角色发展方面较为薄弱，故事缺乏推进和成长，导致整体叙事略显静态。语气偏悲观，但认知思考为文本增添深度。若能丰富情节细节并增强角色转变，共情力将进一步提升。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "79e29afb4504a43f",
+    "llm_scores": {
+      "vividness_emotion": 10.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 10.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 8.0,
+      "development": 8.0,
+      "emo_shift": 8.0
+    },
+    "total_score": 8.5,
+    "evaluation": "文本以诗意的语言深刻描绘了从压抑到释放的情感历程，情感生动性与认知反思尤为突出，能有效唤起读者对自我脆弱性的共鸣。但情节体量较小，缺乏具体事件支撑，使得角色发展略显抽象。整体上，文本在情感深度与认知升华方面表现出色，但在叙事具体性上稍显不足，可能影响部分读者代入。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "7ac21d279bed8c79",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 8.0,
+      "resolution": 8.0,
+      "development": 6.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 6.24,
+    "evaluation": "该文本以积极乐观的笔触记录了18天日本独自旅行的经历，情感基调明亮，情节丰富，但情感和环境描写较为概括，缺乏细腻的细节刻画。角色脆弱性不足，认知思考深度有限，但整体能传递出旅行的愉悦和成长感，能唤起读者对自由旅行的向往。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "7e323d6f87872c80",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 6.0,
+      "resolution": 6.0,
+      "development": 6.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 6.1,
+    "evaluation": "该文本以旅行随笔形式记录了槟城之旅，情感真挚但表达较为平实，环境描写和情感刻画均有一定生动性但未达到强烈共鸣。作者通过遗憾与阅读感悟展现了适度的认知思考，整体语气乐观积极。文本在角色脆弱性和情绪转变上表现较弱，缺乏深层情感冲击，但作为一篇轻松游记，能唤起读者对旅行体验的共鸣。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "7f1283a58cc2dfe8",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 10.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 5.52,
+    "evaluation": "该文本以独特的比喻和哲思见长，在认知表述丰富度上表现突出，通过'乌鸦喝水'的意象将抽象的爱意具象化，能引发读者对情感本质的思考。然而，文本缺乏具体环境描写和情节支撑，角色脆弱性展现不够深入，导致情感共鸣更多停留在理性层面而非感性体验。整体而言，这是一篇富有智性美感的抒情散文，但在唤起读者深层情感共情方面仍有提升空间。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "86ce32c1aeef372c",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 8.0,
+      "volume": 2.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 2.46,
+    "evaluation": "该文本作为短视频标题和标签集合，信息密度极低，缺乏具体叙事和情感细节，导致在情感生动性、环境描写和角色脆弱性等核心共情维度上得分很低。虽然语气乐观积极，但缺乏情节支撑和认知深度，难以让读者产生深刻共鸣。整体上，文本更像一个宣传口号而非完整故事，共情唤起能力较弱。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "88798bca8ce5902a",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 6.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.2,
+    "evaluation": "该文本本质上是社交媒体标签集合，缺乏叙事性、情感细节和角色要素，无法唤起读者共情。所有维度得分均处于最低区间，表明文本在情感表达、场景构建、认知深度和情节发展上均严重不足。建议补充具体故事、人物经历和情感描写，以提升共情力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "8e53675c9b86dde0",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 4.9,
+    "evaluation": "该文本以短句格言形式传递治愈和励志信息，情感表达简洁有力，但缺乏具体叙事和细节，导致情感生动性和环境生动性不足。角色脆弱性较弱，难以让读者深入共情。认知反思和积极语气是亮点，但情节体量和矛盾解决程度较低，整体共情力中等。若增加具体故事和情感细节，可提升共情效果。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "8ffd3d9c9f70cafe",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 6.0,
+      "volume": 2.0,
+      "resolution": 4.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.26,
+    "evaluation": "综合评价：该文本为一句简短的励志语录，情感表达直接但缺乏深度和细节，难以引发读者强烈的共情。文本在情感生动性、环境描写、角色脆弱性和认知深度上均表现不足，整体叙事体量极小，未构建出完整的故事或情感弧线。其优势在于传递了积极向前的态度，但共情力整体较弱，更适合作为社交媒体的简短激励语，而非具有叙事感染力的文本。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "912df31a97c8368c",
+    "llm_scores": {
+      "vividness_emotion": 10.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 7.26,
+    "evaluation": "该文本以强烈的情感表达和生动的比喻成功唤起读者的情感共鸣，尤其在情感生动性上表现突出。然而，文本缺乏具体环境描写和情节支撑，导致共情深度受限。角色脆弱性和认知反思有一定体现，但发展性和情绪转变较弱。整体上，文本适合作为情感宣言，但在叙事完整性和共情层次上仍有提升空间。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "91c1316ab45d27bc",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.66,
+    "evaluation": "综合评价：文本以怀旧为主线，成功营造了青春逝去的感伤氛围，情感真挚且能引发读者共鸣。但在情感与环境描写上缺乏具体细节，削弱了代入感；情节体量较小，矛盾与解决过程不突出，角色成长和情绪转变的刻画也较为平缓。整体共情力中等，优势在于主题普适性和认知感悟，不足在于叙事深度和情感冲击力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "9347b251b29f9872",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 3.06,
+    "evaluation": "该文本是一篇关于独自旅行的经验分享，以实用建议为主，情感表达较为克制，缺乏生动的场景和情感细节，导致读者难以产生强烈的情绪共鸣。作者虽透露了作为女性旅行者的担忧和脆弱，但整体叙事理性，未深入挖掘个人内心世界。文本在认知层面有一定深度，但情节性和情绪转变不足，使得共情力整体偏低。若能增加具体故事和情感描写，将更易唤起读者共情。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "937f8ae8b5b006eb",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 4.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 4.94,
+    "evaluation": "该文本以碎片化的日记形式呈现，情感表达真实但较为抽象，缺乏具体场景和细节支撑，导致情感和环境生动性不足。作者展现了自我矛盾和脆弱性，但认知反思深度有限，整体语气偏悲观。情节体量小，矛盾未解决，角色无发展，情绪转变平缓。优势在于真实地捕捉了日常情绪波动，但共情唤起力受限于表达方式的零散和深度不足。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "93a45511fbe4b0e8",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.26,
+    "evaluation": "该文本以温暖、感恩和俏皮的语气为主，情感表达生动但缺乏深度场景支撑，环境描写几乎缺失，角色脆弱性仅部分展现。认知层面有简短思考，但情节体量小，矛盾与发展不明显，情绪转变平缓。整体上，文本能唤起读者的温馨共鸣，但在叙事丰富性和情感层次上仍有提升空间，共情力中等偏上。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "95c1f1952d862a05",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 4.86,
+    "evaluation": "该文本以简洁的语言表达了对青春苦涩的怀念，情感真挚但缺乏具体细节和情节支撑，导致环境生动性和故事体量不足。认知反思和脆弱性有一定体现，但深度有限。整体上，文本能唤起读者对青春的共同记忆，但在共情力的多个维度上仍有提升空间，尤其是通过增加具体场景和情感细节来增强感染力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "962088e019ca08a2",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 6.0,
+      "resolution": 8.0,
+      "development": 6.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 6.16,
+    "evaluation": "该文本以温暖治愈为核心，通过多个失意角色在便利店获得慰藉的故事，成功营造了共情氛围。优势在于情感基调积极、矛盾解决圆满，能引发读者对治愈故事的共鸣；不足在于情感和环境描写较为概括，角色脆弱性和认知转变的细节不足，削弱了代入感和深度。整体上是一篇能传递温暖但感染力有限的推荐文案。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "9e795db59f10554b",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 8.0,
+      "volume": 2.0,
+      "resolution": 4.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.36,
+    "evaluation": "综合评价：该文本以标签和口号形式传递了积极治愈的意图，但缺乏具体叙事和情感细节，导致共情唤起能力较弱。优势在于语气乐观，能传递正向能量；不足在于情感、环境、角色等维度均未展开，难以让读者产生深度共鸣。整体更像一句励志标语，而非完整的共情叙事。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "9f92b8032a3032ea",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 5.04,
+    "evaluation": "综合评价：该文本以轻松愉快的笔调记录了独自在宇治旅行的幸福感受，情感基调积极乐观，能传递出愉悦的氛围。然而，文本在情感深度、环境细节、认知反思和角色发展方面较为薄弱，缺乏能引发读者深层共情的元素。整体上，它更像是一篇简短的旅行心情记录，而非一个能唤起强烈情感共鸣的叙事。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "a0e0951eed158269",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 2.0,
+      "resolution": 4.0,
+      "development": 6.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.04,
+    "evaluation": "综合评价：该文本以诗意的语言和细腻的内心独白唤起读者对青春暗恋的共鸣，情感表达具有感染力，但环境描写和情节体量较为薄弱，削弱了叙事的沉浸感。角色脆弱性和认知反思有一定深度，但发展过程略显仓促。整体上，文本在情感共鸣方面表现良好，但在叙事完整性和情绪张力上仍有提升空间。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "a18fbab6f3469347",
+    "llm_scores": {
+      "vividness_emotion": 10.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 10.0,
+      "tone": 4.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 8.02,
+    "evaluation": "综合评价：该文本在情感生动性和认知表述上表现突出，通过诗意的比喻和哲学思考深刻唤起读者对离别的共情。然而，环境描写和个人化细节不足，削弱了代入感；情节体量较小，矛盾解决不彻底，角色发展有限，整体情绪基调偏悲观，但结尾的期待感为文本增添了一丝温度。总体而言，文本在情感共鸣上成功，但在叙事深度和结构上仍有提升空间。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "a209ea4582c1770d",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.66,
+    "evaluation": "综合评价：文本以细腻的笔触描绘了独自旅行中的孤独与自由，环境氛围和内心感受有一定感染力，但情感表达偏内敛，个人脆弱性展现不足，认知思考虽清晰却不够深入。情节体量较小，矛盾解决和角色发展均较薄弱，整体共情力中等。若能增加更多具体细节和情感起伏，将更能唤起读者的共鸣。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "a2f6ec4e2fa32f9e",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.76,
+    "evaluation": "综合评价：文本以细腻的笔触描绘了独自旅行中的孤独与自由，情感和环境描写具有一定生动性，能引发读者对自我状态的共鸣。但情节体量较小，矛盾解决和角色发展程度有限，情绪转变不够强烈，整体共情力中等。优势在于对细微感受的捕捉和哲思性表达，不足在于缺乏更深入的个人故事和情感冲击。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "a334ebf510971f26",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 6.0,
+      "development": 6.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.88,
+    "evaluation": "综合评价：文本以细腻的笔触描绘了安静的青春，在环境生动性和认知思考方面有一定表现，能够唤起读者对平凡青春的共鸣。但情感表达较为内敛，情节体量不足，角色脆弱性和情绪转变程度有限，整体共情力中等。优势在于对'安静'主题的深刻反思，不足在于缺乏强烈的情感张力和具体情节支撑。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "a4d08d61070b3388",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 10.0,
+      "vulnerability": 2.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 6.0,
+      "resolution": 4.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 6.08,
+    "evaluation": "综合评价：该文本以壮丽的自然景观和丰富的环境描写见长，能有效唤起读者对青海的向往和视觉共情，但在情感深度、个人脆弱性和叙事发展上较为薄弱。文本更像是一篇旅行宣传文案，而非完整的叙事故事，因此共情力主要来源于环境感染力和积极氛围，而非人物情感共鸣。若能加入具体人物经历或内心变化，共情效果将显著提升。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "a6100c5e1f9919b9",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 6.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.2,
+    "evaluation": "该文本由一系列标签组成，缺乏具体叙事内容，无法唤起读者共情。所有维度得分均处于最低水平，仅语气因标签中“温柔”“治愈”与“忧郁”的并存而略显中性。整体上，文本未提供任何情感、场景或角色信息，共情力极低。建议补充具体故事或情感描写，以提升文本的共情效果。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "af6a303242c507c9",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 4.74,
+    "evaluation": "该文本以热情洋溢的宣言式语言传递了对自由、爱情和人生的积极态度，情感基调乐观，认知层面有一定深度。然而，文本缺乏具体情境和人物细节，环境描写和角色脆弱性不足，导致共情力主要依赖于读者对普适性主题的共鸣，而非个体化叙事的感染力。整体上，文本在唤起读者情感共鸣方面有一定优势，但叙事性和代入感较弱。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "b417486e08eb1be6",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 4.0,
+      "resolution": 2.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.6,
+    "evaluation": "综合评价：该文本真实地记录了独自旅行中的孤独与恐惧，情感表达坦诚，但缺乏生动的细节和深度描写，导致情感感染力有限。环境描写和情节体量较为单薄，削弱了代入感。矛盾未解决，角色发展不明显，整体情绪偏悲观。若能增加感官细节、深化内心反思，并展现一定的情绪转变或成长，将更能引发读者共情。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "b887b09a7fe6d91e",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 4.82,
+    "evaluation": "该文本以抒情和哲思为主，情感表达含蓄而真实，能引发读者对存在与关系的共鸣，但在环境描写、情节发展和矛盾解决方面较为薄弱。角色脆弱性体现不足，缺乏个人化细节，削弱了共情的深度。整体上，文本在情感氛围上具有一定感染力，但叙事性不足，限制了共情力的全面发挥。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "bb514ce504aa6997",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 2.0,
+      "tone": 4.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 4.5,
+    "evaluation": "该文本以碎片化的网络语言表达了独自旅行的孤独感，情感生动性部分达标，但环境描写、认知深度和情节体量严重不足，导致共情唤起主要依赖读者对“孤独”的普遍体验。文本的脆弱性通过自嘲有所体现，但缺乏细节支撑，整体叙事单薄，情绪转变和角色发展几乎为零。若能补充具体场景、内心独白或事件转折，将显著提升共情力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "bcda68ee83cce13b",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 4.42,
+    "evaluation": "该文本以话题标签形式集中表达了对青春遗憾的感慨，情感基调统一但缺乏具体叙事支撑。在情感生动性和认知表述上略有体现，但环境、角色、情节等维度几乎空白，导致整体共情力较弱。文本更像是一种情绪宣言，而非完整故事，难以让读者产生深度共鸣。若能补充具体经历和细节描写，将显著提升共情效果。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "bdf5e526decb1495",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.76,
+    "evaluation": "该文本以平实的笔触记录了独自旅行的经历，情感真实但不够强烈，环境描写和认知思考均处于中等水平。角色脆弱性体现有限，情节简单且矛盾未充分展开，导致整体共情力中等。优势在于真实的生活片段和淡淡的孤独感，不足在于缺乏深度情感渲染和角色成长，难以引发强烈共鸣。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "bf440b5b2398298a",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 4.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.1,
+    "evaluation": "该文本极其简短，仅表达了对独自旅游的向往与恐惧，情感表达笼统，缺乏具体细节和叙事展开。在情感生动性、环境描绘、角色脆弱性等核心维度上均表现不足，难以唤起读者深度共情。文本的优势在于真实反映了内心的矛盾，但整体信息量过少，限制了共情潜力的发挥。建议丰富个人化经历、具体场景和情感细节，以增强感染力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "c22e3c25cc7ae72c",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 10.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.12,
+    "evaluation": "综合评价：该文本以加缪的经典语录为核心，展现了极高的认知表述丰富度，哲理深刻且语气乐观治愈，能引发读者对人生意义的思考。然而，文本缺乏具体情境和人物描写，环境生动性、角色脆弱性及情节体量均较低，导致情感共鸣多停留在理性层面，而非感性体验。整体上，它更适合作为思想启迪而非情感叙事，共情唤起能力有限，但认知层面的感染力较强。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "c85b2e10f38a2125",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 6.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.2,
+    "evaluation": "该文本仅由一系列话题标签组成，缺乏实质性的叙事内容、情感表达和人物塑造，因此无法有效唤起读者的共情。所有维度得分均处于最低水平，整体共情力极弱。文本仅能通过标签暗示主题方向，但未提供任何可供读者情感投入的具体素材。建议补充具体的故事、场景或情感描写以提升共情效果。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "c93f73a8b3bc9413",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.86,
+    "evaluation": "综合评价：文本以怀旧视角唤起读者对青春的共同记忆，情感真挚但缺乏深度。在情感和环境生动性上表现中等，通过具体意象如停电、红烧肉等引发共鸣，但个人化脆弱性和认知反思不足。语气乐观治愈，但情节体量小、矛盾缺失，导致故事性和角色发展较弱。整体共情力中等，适合作为短篇随笔引发轻度共鸣，但难以带来强烈的情感冲击。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "ce6937d3dcce7e14",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.72,
+    "evaluation": "该文本以清单式总结旅行能力，理性分析有余而情感共鸣不足。在情感生动性、环境描写和角色脆弱性方面均显薄弱，缺乏具体故事和细节支撑，难以唤起读者共情。认知表述和语气中性，但整体叙事性弱，情节体量和情绪转变均较低。若增加个人经历、情感细节和矛盾解决过程，可显著提升共情力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "cecb7d0e0ee30e62",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.66,
+    "evaluation": "文本以细腻的笔触描绘了告别后的遗憾，情感真挚但表达较为抽象，缺乏具体细节支撑，削弱了共情力。环境描写和情节体量有限，角色脆弱性展现不足，认知反思深度中等。整体语气悲观，矛盾未解决，角色发展不明显，情绪转变平缓。若能增加具体场景和内心独白，将更能引发读者共鸣。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "cf4eb8122b3c8879",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.7,
+    "evaluation": "该文本以精选短诗形式呈现，通过丰富的意象和简洁语言传递了治愈与反思，在情感和环境生动性上表现中等，能唤起读者共鸣。但作为摘抄合集，缺乏连贯情节、角色发展和矛盾解决，导致叙事性弱，共情力主要依赖诗句本身的感染力。认知思考虽有一定深度，但个人化脆弱感不足，整体情绪转变平缓，限制了共情强度的提升。适合作为灵感片段，而非完整共情叙事。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "d1a0f2e927896833",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 6.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.2,
+    "evaluation": "该文本仅由话题标签组成，缺乏具体内容、情感表达和叙事元素，无法有效唤起读者共情。所有维度得分均处于最低区间，表明文本在情感生动性、环境描写、角色脆弱性、认知深度等方面均存在严重不足。建议补充具体的金句内容、个人化叙述或场景描写，以提升文本的共情力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "d207ada6bca9c84f",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 6.0,
+      "development": 4.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 5.36,
+    "evaluation": "该文本以励志格言形式呈现，情感基调积极，能传递希望和力量，在语气和认知层面有一定共情力。然而，由于缺乏具体情境、个人化细节和连贯叙事，情感和环境生动性不足，角色脆弱性和发展程度也较低。整体上，文本更偏向于激励性语录，而非深度叙事，因此共情唤起主要依赖于普遍化的情感共鸣，而非具体故事的代入感。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "d4bc415f95a6b503",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 6.0,
+      "development": 4.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 5.36,
+    "evaluation": "综合来看，该文本在情感表达上具有一定感染力，通过诗意语言传递了成长中的脆弱与希望，但环境描写和情节体量较为薄弱，削弱了共情的具体性。角色脆弱性体现适中，但缺乏个人化细节，使读者难以深入代入。语气乐观积极，为文本增添了正向情感色彩，但情绪转变和角色发展程度有限。整体上，文本在唤起读者共鸣方面有一定优势，但在叙事深度和细节丰富度上仍有提升空间。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "d59dc91580248b28",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 6.0,
+      "development": 4.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 5.96,
+    "evaluation": "该文本以象征性语言传递了希望与坚韧的主题，情感基调积极，能引发读者共鸣，但在情感生动性、情节体量和角色发展方面较为薄弱。文本更侧重于理念的宣扬而非具体故事的叙述，导致共情力更多依赖于读者的自我投射。若能增加个人化细节和具体情节，将更有效地唤起深层共情。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "d6d2d46b7b407f70",
+    "llm_scores": {
+      "vividness_emotion": 10.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 4.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 7.58,
+    "evaluation": "综合评价：该文本以台湾文学片段拼贴形式呈现，情感表达极为生动，能迅速唤起读者对命运与失去的共情。然而，由于缺乏完整情节和角色发展，故事性较弱，矛盾未获解决，整体结构较为碎片化。语气偏悲观，但认知思考的深度为文本增添了哲思色彩。若能补充更多角色背景与情节推进，共情力将更为持久和深入。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "d77dc6fbfed9b737",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 8.0,
+      "development": 6.0,
+      "emo_shift": 8.0
+    },
+    "total_score": 6.12,
+    "evaluation": "综合评价：该文本以诗意语言描绘了从雨季到阳光的心理转变，情感和环境生动性中等，但通过隐喻和重复句式有效传达了希望与释然。角色脆弱性表现含蓄，认知思考适中，整体语气乐观，矛盾解决彻底，情绪转变明显。不足之处在于情节体量较小，角色发展深度有限，但文本在唤起读者对新生和光明的共情方面具有感染力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "d8deb013b1a8d887",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.66,
+    "evaluation": "该文本以告别和成长为线索，情感真挚但表达较为抽象，缺乏具体细节，导致情感和环境生动性不足。作者展现了脆弱性和认知思考，但深度有限。语气偏悲观，情节体量小，矛盾解决和角色发展不充分，情绪转变平缓。整体上能引起读者对离别和成长的共鸣，但在叙事丰富性和情感冲击力上有所欠缺。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "d9fd4a74115356f3",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 4.86,
+    "evaluation": "该文本以抒情和反思为主，情感表达有一定深度但缺乏具体细节，环境描写和情节体量严重不足，导致共情唤起主要依赖抽象意象而非叙事代入。角色脆弱性中等，但缺少个人化信息，使读者难以产生强烈共鸣。整体语气悲观，情绪转变平缓，故事性和发展性弱，共情力有限。若能补充具体场景和事件，将显著提升文本的感染力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "da5a11ab481c3ac9",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 6.0,
+      "volume": 2.0,
+      "resolution": 4.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.26,
+    "evaluation": "综合评价：该文本篇幅极短，仅是一个旅行经历的简单记录，缺乏情感细节、环境描写和个人脆弱性的展现，导致共情唤起能力非常有限。优势在于“第一次”和“独自”等关键词能引发读者对类似经历的联想，但文本未提供足够的情感锚点。整体上，文本更像一个社交媒体的标签式分享，而非一个能深度触动读者的叙事。若要提升共情力，需要补充具体的情感体验、场景细节和个人反思。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "dab9dc5626e73268",
+    "llm_scores": {
+      "vividness_emotion": 10.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 7.86,
+    "evaluation": "综合评价：该文本以诗意的语言描绘了自然元素带来的温暖与平静，情感生动性突出，能有效唤起读者的感官共鸣。然而，文本缺乏具体情节和人物深度，角色脆弱性展现不足，导致共情更多停留在氛围层面而非故事层面。认知表述虽有一定哲思，但整体体量较小，情绪转变平缓，限制了共情力的深度和持久性。若能补充具体经历或矛盾冲突，将更有利于读者产生强烈的情感代入。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "dbc092e780d7ab2b",
+    "llm_scores": {
+      "vividness_emotion": 10.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 10.0,
+      "cognition": 10.0,
+      "tone": 2.0,
+      "volume": 4.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 8.16,
+    "evaluation": "综合评价：该文本以极其强烈的情感宣泄和深刻的自我剖析，成功唤起读者的共情，尤其在情感生动性和角色脆弱性维度表现突出。然而，文本缺乏情节支撑和矛盾解决，整体情绪基调过于悲观且单一，导致故事性和情绪转变维度得分较低。尽管如此，其文学性的表达和真诚的内心独白仍具有强大的感染力，适合引发读者对孤独与自我认同的深度共鸣。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "df9b24e1b5447b8a",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 6.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.2,
+    "evaluation": "该文本本质上是社交媒体标签集合，缺乏具体叙事内容，所有维度得分均处于最低区间。文本仅通过关键词暗示主题，但未提供任何可引发共情的具体情境、人物或情感细节。作为共情力评估对象，其信息量严重不足，无法有效唤起读者情感共鸣。建议补充具体故事、场景或人物经历以提升共情力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "e1442074c1857c8a",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 10.0,
+      "tone": 2.0,
+      "volume": 4.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.16,
+    "evaluation": "综合评价：该文本在认知表述丰富度上表现突出，深入探讨了青少年在应试教育下的自我迷失问题，思考深刻。然而，文本在情感和环境生动性上较为欠缺，缺乏具体场景和细节描写，导致共情感染力不足。角色脆弱性虽有所体现，但个人化信息不足，难以让读者产生强烈代入感。整体语气悲观，矛盾未解决，角色无发展，情绪起伏小，使得文本更像一篇哲思随笔而非叙事故事。若能增加具体经历和情感细节，并展现一定的成长或转变，将更能唤起读者共情。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "e569d8947a67b505",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.16,
+    "evaluation": "综合评价：该文本以个人独白方式表达了对独自旅行的热爱和自私的自我认知，情感真挚但缺乏具体场景和细节支撑，环境生动性不足。认知层面有一定深度，引用了文学名言，但情节体量和矛盾解决程度较低，整体故事性较弱。角色发展不明显，情绪转变温和，共情力主要依赖于作者坦诚的自我剖析，但难以让读者产生强烈的代入感。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "e723547187eb1d47",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 2.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.68,
+    "evaluation": "该文本作为社交媒体帖子，内容简短，以提问和标签为主，缺乏具体叙事和情感细节，导致共情唤起能力较弱。优势在于作者坦诚分享了个人性格和担忧，能引发部分读者共鸣，但整体生动性、认知深度和情节丰富度不足，难以让读者产生强烈情感投入。建议增加具体旅行经历、环境描写和内心感受的刻画，以提升共情力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "e74922fe8701f3b5",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 2.0,
+      "resolution": 4.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 4.92,
+    "evaluation": "综合评价：该文本以简短而诗意的语言表达了沉重与祝愿交织的情感，情感基调鲜明，但缺乏具体情节和环境描写，导致共情唤起主要依赖抽象意象而非叙事细节。角色脆弱性有所体现但不够深入，认知思考适中。整体上，文本在情感表达上有一定感染力，但叙事完整性和情绪转变的细腻度不足，限制了共情力的充分发挥。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "e93bfa020cc3ed10",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 2.0,
+      "volume": 4.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.44,
+    "evaluation": "综合评价：该文本以诗歌形式表达了作者在青春期的深沉悲痛与对命运的质问，情感真挚但表达抽象，削弱了直接共情力。环境与情感意象虽具象征性，但缺乏具体细节，难以让读者完全沉浸。角色脆弱性有所体现，但个人化信息不足，认知思考丰富但隐晦。整体语气极度悲观，情节和矛盾解决程度低，角色无发展，情绪转变有限。文本在唤起共情方面主要依赖其诗意和悲剧氛围，但在叙事性和情感直接性上有所欠缺。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "eaf9d47df60ef768",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 8.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.3,
+    "evaluation": "该文本是一句简短的励志标语，缺乏具体的叙事和情感细节，难以唤起读者的深度共情。其优势在于语气积极乐观，能传递正向情绪，但整体内容过于抽象和单薄，在情感生动性、环境描写、角色塑造等关键维度上均表现不足。建议增加具体的故事场景、人物经历或情感细节，以增强文本的感染力和共情力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "f028a1180f731f58",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 8.0,
+      "development": 6.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 5.38,
+    "evaluation": "综合评价：文本以诗意的语言回顾青春，情感真挚，但缺乏具体场景和细节，导致生动性不足。作者展现了内心的脆弱和成长，但认知反思深度有限。整体语气平和，矛盾解决彻底，但情节体量较小，情绪转变不够鲜明。文本在唤起共情方面有一定优势，但需加强具体描写和情感张力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "f126e2d8ec58859a",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 6.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.32,
+    "evaluation": "综合评价：该文本以女性独立成长为主题，通过引用多首治愈系诗句，传递了自我接纳与内在力量的核心思想，语气积极乐观，认知表述清晰。然而，文本在情感和环境生动性上较为抽象，缺乏具体场景和细节支撑，导致共情力稍显不足。角色脆弱性和情节体量有限，更多是普遍性感悟而非个人化叙事，削弱了读者的代入感。整体上，文本在传递正能量和启发思考方面表现良好，但在唤起深层情感共鸣上仍有提升空间。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "f1325a5baf0d5b7f",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 10.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 6.0
+    },
+    "total_score": 6.4,
+    "evaluation": "综合评价：该文本在环境生动性方面表现出色，通过细腻的描写让读者仿佛置身于暴雨夜的旷野中，具有很强的画面感。情感表达虽然真实但较为含蓄，缺乏深度的内心剖析，角色脆弱性和认知表述方面略显不足。整体情节简单，矛盾和发展程度较低，但情绪有一定转变，能够唤起读者对青春记忆的共鸣。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "f195ea30a1cd59b6",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 6.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.94,
+    "evaluation": "该文本是一篇典型的旅行攻略分享，以实用信息为主，如开销、住宿、路线等，缺乏情感表达和个人叙事，导致共情力较低。优势在于信息清晰、对读者有实用价值，但未能唤起读者情感共鸣。建议增加个人感受、困难经历或反思，以提升文本的共情力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "f1ac5d25c85b944c",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 4.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 4.94,
+    "evaluation": "综合评价：该文本以抽象而富有诗意的语言表达了二十几岁的迷茫与痛苦，情感上具有一定的感染力，但缺乏具体场景和细节支撑，导致共情力受限。角色脆弱性表现适中，但认知思考深度不足，情节体量较小，矛盾未得到解决，角色发展不明显。整体语气悲观，情绪转变幅度有限，在唤起读者共情方面，优势在于情感表达的真诚与比喻的生动，不足在于缺乏具体性和叙事性。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "f48a6f7308276eeb",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 2.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.4,
+    "evaluation": "该文本以夏日意象和诗意语言营造出浪漫乐观的氛围，在环境生动性和语气情绪上表现较好，能够唤起读者对美好场景的想象。然而，文本缺乏具体人物和叙事性，导致角色脆弱性、情节体量和角色发展维度得分较低，共情力主要依赖于意境而非故事或人物。整体上，文本适合作为抒情短诗，但在引发深层情感共鸣方面略显不足。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "f5b43495d47a39cc",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 4.0,
+      "resolution": 2.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.0,
+    "evaluation": "综合评价：文本真实地呈现了独自旅行中生病无助的脆弱时刻，情感表达直接，能引发读者对安全问题的共鸣。但在环境描写、情节丰富度和角色发展方面较为薄弱，限制了共情的深度。建议增加更多感官细节和内心挣扎的描写，以增强情感感染力。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "f5c39f4eaa88d6fb",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 6.0,
+      "tone": 8.0,
+      "volume": 4.0,
+      "resolution": 4.0,
+      "development": 4.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 4.86,
+    "evaluation": "该文本以格言式摘抄为主，侧重哲理表达与积极人生态度，认知维度得分较高，但缺乏具体情节、环境描写和个人脆弱性，导致情感共鸣和代入感较弱。语气乐观，能传递正向力量，但叙事性不足，难以让读者产生深层次的情感沉浸。整体共情力中等偏下，更适合作为励志语录而非叙事性文本。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "f6118bcb1f892ee8",
+    "llm_scores": {
+      "vividness_emotion": 2.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 2.0,
+      "tone": 8.0,
+      "volume": 2.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 2.0
+    },
+    "total_score": 2.3,
+    "evaluation": "综合评价：该文本本质上是正能量文案的主题标签集合，缺乏具体叙事内容。在情感生动性、环境描写、角色脆弱性、认知深度等维度均表现极低，无法唤起读者共情。唯一亮点是整体语气积极乐观，但缺乏情节支撑，共情力整体薄弱。建议补充具体故事、人物细节和情感转折以增强共情效果。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "f792c8a555c9fd18",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 6.0,
+      "vulnerability": 6.0,
+      "cognition": 6.0,
+      "tone": 4.0,
+      "volume": 4.0,
+      "resolution": 2.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 5.54,
+    "evaluation": "该文本以诗意的语言描绘了少年时期的情义与朦胧爱恋，情感和环境描写具有一定生动性，能唤起读者对青春的共鸣。然而，文本缺乏具体情节和角色发展，矛盾与解决几乎缺失，导致叙事张力不足。认知思考虽有一定深度，但表述较为抽象，削弱了共情感染力。整体上，文本在情感唤起上表现尚可，但在叙事完整性和角色成长方面存在明显不足。",
+    "model_used": "deepseek-chat"
+  },
+  {
+    "story_id": "fa993214ccd66bc7",
+    "llm_scores": {
+      "vividness_emotion": 6.0,
+      "vividness_setting": 2.0,
+      "vulnerability": 2.0,
+      "cognition": 6.0,
+      "tone": 6.0,
+      "volume": 2.0,
+      "resolution": 4.0,
+      "development": 2.0,
+      "emo_shift": 4.0
+    },
+    "total_score": 4.62,
+    "evaluation": "综合评价：该文本以简洁的随笔形式记录了期末复习时打游戏与写东西的对比感受，情感表达真实但不够生动，环境描写和角色脆弱性维度明显不足。认知层面有一定反思，但深度有限。整体共情力中等偏低，主要优势在于真实的生活化体验，不足在于缺乏细节和情感张力，难以让读者产生强烈共鸣。",
+    "model_used": "deepseek-chat"
+  }
+]
